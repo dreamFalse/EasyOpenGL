@@ -15,3 +15,4 @@ struct object_name {
 
 Ubuntu下环境配置
 https://www.cnblogs.com/jiujiubashiyi/p/16429717.html
+git push -u origin  main
