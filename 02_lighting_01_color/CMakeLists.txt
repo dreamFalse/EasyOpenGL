@@ -5,8 +5,9 @@ set(CMAKE_CXX_STANDARD 14)
 project(test)
 
 find_package(glfw3 REQUIRED)
-
+find_package(glm REQUIRED)
 file(GLOB project_file glad.c main.cpp)
 add_executable(${PROJECT_NAME} ${project_file})
 
+target_link_libraries(${PROJECT_NAME} glm)
 target_link_libraries(${PROJECT_NAME} glfw)
