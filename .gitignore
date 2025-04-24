@@ -1,5 +1,9 @@
 */build/
 *.jpg
 *.png 
-
+source/ 
 */include/glm/*
+*/bin
+*.dll
+*.a
+*.exe
